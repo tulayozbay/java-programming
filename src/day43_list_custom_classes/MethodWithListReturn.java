@@ -28,7 +28,7 @@ public class MethodWithListReturn {
 
     }
     /**
-        getIntegerList
+     getIntegerList
      No param
      return List<Integer>
      Loop from 0-1000_000
@@ -44,13 +44,13 @@ public class MethodWithListReturn {
         }
         return nums;
 
-        //note: if we got with array it is going to be faster. because array faster than arrayllist
+        //note: if we got with array it is going to be faster. because array faster than arraylist
 
     }
 
 
     /**
-        getIntegerArray
+     getIntegerArray
      return int[]
      loop from 0-1000000
      and add to int [] then return it
@@ -65,9 +65,6 @@ public class MethodWithListReturn {
         return nums;
     }
 
-    /**
-       getDays
 
-     */
 
 }

@@ -41,12 +41,12 @@ public class ListMethods {
      param: int size
      return List<Integer>
      generate random numbers (0 - 100) the count of size, and assign to List then return
-     getRandomList(3) -> 43,12,54
+     getRandomList(3) -> 43,12,54-->whatever you write it gives you as it is. you write 3 it gives you 3 random number
      getRandomList(2)->1,4
      */
 
     public static List<Integer> getRandomlist(int size) {
-        Random random = new Random();//new Random object with 0-100 limit
+        Random random = new Random();//new Random object
         List<Integer> nums = new ArrayList<>();
         for (int i = 1; i <= size; i++) {
             //bu asagiaki kod ayni sayinin iki defa yazilmasini engeller yani rasgele secilen numaralariniki tanesi ayni olmamasini isterssen
